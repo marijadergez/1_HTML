@@ -1,0 +1,12 @@
+body{
+    background-color: #0d0f0d;
+}
+
+table,td,th{
+    border: 1px solid blue;
+    border-collapse: collapse; /*maknio mi je sa ovim dvostruki okvir*/
+}
+
+table{
+    width: 100vh; /*proširili smo podrucje u tablici tj okvira svakog okvira*/
+}
