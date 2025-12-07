@@ -50,6 +50,11 @@ nav a {
 .usluge {
     text-align: center;
     padding: 40px 30px;
+      flex: 1;
+    background: #f5f5f5;
+    padding: 20px;
+    border-left: 3px solid orange;
+    border-radius: 6px;
 }
 
 .usluge-boxes {
@@ -64,4 +69,33 @@ nav a {
     padding: 20px;
     border-left: 3px solid orange;
     border-radius: 6px;
+}
+footer{
+     background: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cjenik{
+  flex: 1;
+  
+    background: #f5f5f5;
+    padding: 20px;
+    border-left: 3px solid orange;
+    border-radius: 6px;
+}
+table,td,th{
+    border: 1px solid rgb(29, 29, 32);
+    border-collapse: collapse;
+     justify-content: center;
+}
+
+table{
+    width: 100vh;
+}
+address{
+    text-align: center;
+     justify-content: center;
 }
