@@ -99,3 +99,12 @@ address{
     text-align: center;
      justify-content: center;
 }
+.article{
+     background: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
