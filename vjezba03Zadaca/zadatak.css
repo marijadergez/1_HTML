@@ -6,6 +6,8 @@
     row-gap: 1.5rem;
     column-gap: 1.5rem;
     background-color: black;
+     border-color: black;   
+ 
 
    
 
@@ -13,9 +15,12 @@
 
 body {
     display: grid;
+    sizing: border-box;
+  
     grid-template-columns: 150px auto 150px;
     grid-template-rows: 120px auto 120px;
     height: 100vh;
+     
   
    
 }
@@ -25,8 +30,9 @@ body {
     grid-row: 1 / 2;
     background: #e74c3c;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 35px;
     font-size: 24px;
+    border-color: black;
 }
 
 .p2 {
@@ -34,8 +40,9 @@ body {
     grid-row: 2 / 3;
     background: #3498db;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 24px;
+
 }
 
 .p3 {
@@ -48,6 +55,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
+     border-color: black;
+
 }
 
 
@@ -57,6 +66,7 @@ body {
     text-align: center;
     line-height: 40px;
     font-weight: bold;
+   
 }
 
 .s2 {
@@ -66,6 +76,7 @@ body {
     text-align: center;
     line-height: 40px;
     font-weight: bold;
+    
 }
 
 .s3 {
@@ -76,6 +87,7 @@ body {
     line-height: 40px;
     font-weight: bold;
     align-self: flex-end;
+    
 }
 
 .p4 {
@@ -83,8 +95,9 @@ body {
     grid-row: 2 / 3;
     background: #8e44ad;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 24px;
+   
 }
 
 .p5 {
@@ -92,6 +105,7 @@ body {
     grid-row: 3 / 4;
     background: #2ecc71;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 35px;
     font-size: 24px;
+   
 }
