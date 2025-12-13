@@ -1,0 +1,6 @@
+body{
+    background-color: antiquewhite;   /*tipka f2 za preimenovat dokument foile*/
+}       
+video#edunova{
+    max-width: 500px; /*/ velicina videa tj boxa*/
+}
