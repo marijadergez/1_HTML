@@ -62,10 +62,8 @@ height: 1500px;
 margin-top: 50px;   
 width: 100%;
 background-color: rgb(243, 239, 239); 
-
-
-
 }
+
 section{
     display: flex;
     justify-content: center;
@@ -99,10 +97,22 @@ table{
     width: 90%;
     border-collapse: collapse;
     margin-top: 20px;
-  
+    color: rgb(46, 43, 43);
+    font-family: Arial, sans-serif;
+    font-size: 14x;
+ 
 }
-td, th{
+
+th {
     border: 1px solid #868282;
     padding: 8px;
-    
-}
+    text-align: left;
+    background-color:black;
+    color: white;
+   
+} 
+td {
+    border: 1px solid #868282;
+    padding: 8px;
+    text-align: left;
+  }   
