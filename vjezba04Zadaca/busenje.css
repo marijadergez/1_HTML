@@ -52,9 +52,9 @@ font-size: 20px;
 color: rgb(8, 8, 8);    
 }
 
-p, p1 {
-font-size: 12px; 
-color: rgb(8, 8, 8);
+p {
+font-size: 14px; 
+color: rgb(105, 101, 101);
 }
 
 .container3{
@@ -75,10 +75,34 @@ section{
 .box{
     border: 1px rgb(211, 201, 201) solid; 
     display: inline-block;
-    margin: 20px;
-    height: 200px;
-    width:250px;
-    background-color: rgb(236, 228, 243);  
+  
+    height: 180px;
+    width:280px;
+    background-color: rgb(227, 221, 228);  
     border-radius: 0.5rem;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
    
+.box2{
+    float:left;
+    margin: 25px;
+    border: 1px rgb(243, 239, 239) solid; 
+    display: inline-block;
+    margin top: 20px;   
+    background-color: rgb(240, 240, 240);  
+    text-align: left;
+   
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  
+}
+td, th{
+    border: 1px solid #868282;
+    padding: 8px;
+    
 }
